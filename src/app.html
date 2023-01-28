@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width" />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <!-- Roboto -->
+  <link
+    rel="preload stylesheet"
+    as="style"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
+  <!-- Roboto Mono -->
+  <link
+    rel="preload stylesheet"
+    as="style"
+    href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
+  <!-- Material Icons -->
+  <link
+    rel="preload stylesheet"
+    as="style"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <!-- SMUI Styles -->
+  <link
+    rel="stylesheet"
+    href="%sveltekit.assets%/smui.css"
+    media="(prefers-color-scheme: light)" />
+  <link
+    rel="stylesheet"
+    href="%sveltekit.assets%/smui-dark.css"
+    media="screen and (prefers-color-scheme: dark)" />
+  <!-- favicon -->
+  <link
+    rel="icon"
+    href="%sveltekit.assets%/favicon.png?v=%app.version%" />
+  %sveltekit.head%
+</head>
+
+<body
+  itemscope
+  itemtype="https://schema.org/%schema.page%">
+  <div style:display="contents">%sveltekit.body%</div>
+</body>
+
+</html>
